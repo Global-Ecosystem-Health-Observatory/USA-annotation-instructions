@@ -45,7 +45,7 @@ The names of the image files follow a specific structure as well. As an example,
 
 **NOTE!** The original untiled images cover whole counties. Some of these images exceed the county boundaries and the values of the pixels exceeding the boundaries have been set to zero. As a result, some image tiles might be partly or even fully black.
 
-**NOTE!** The images located under the subdirectories of `/scratch/project_2004205/USA` are a **random** subset of all images from the states of Washington and Oregon. Hence, you can expect many of the images to contain little to no forest.
+**NOTE!** The images located under the subdirectories of `/scratch/project_2004205/USA/` are a **random** subset of all images from the states of Washington and Oregon. Hence, you can expect many of the images to contain little to no forest.
 
 ### Downloading the images
 
