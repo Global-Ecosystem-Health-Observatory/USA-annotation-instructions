@@ -37,5 +37,8 @@ The names of the image files follow a specific structure as well. As an example,
 
 - `wa` is the abbreviation of the state within which the image is located
 - `065` is the [code of the county](https://www.nrcs.usda.gov/wps/portal/nrcs/detail/national/home/?cid=nrcs143_013697) within which the image is located.
+- `2023` is the image acquisition year.
+- `c` is the imagery type (infrared in this case).
+- `06` and `25` represent the position (row and column) in the original untiled image from which the specific tile was extracted. The original untiled images in the [Box storage](https://nrcs.app.box.com/v/naip/) cover a whole counties.  
 
 
