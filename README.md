@@ -14,7 +14,7 @@
 
 There are three main disk areas in Puhti:
 
-`home` - The home directory of a specific Puhti user. This is the default directory you end up in when you log into Puhti. Only you have access to this directory
+`home` - The home directory of a specific Puhti user. This is the default directory you end up in when you log into Puhti. Only you have access to this directory.
 
 `projappl` - A project-specific directory for storing code related to the project. The directory can be accessed by all project members.
 
