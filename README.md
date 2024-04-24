@@ -47,6 +47,14 @@ The names of the image files follow a specific structure as well. As an example,
 
 **NOTE!** The images located under the subdirectories of `/scratch/project_2004205/USA` are a **random** subset of all images from the states of Washington and Oregon. Hence, you can expect many of the images to contain little to no forest.
 
+### Downloading the images
+
+Follow these steps to download the images:
+
+1. [Connect to Puhti using a graphical file transfer program](https://docs.csc.fi/data/moving/graphical_transfer/), such as FileZilla or WinSCP.
+2. Navigate to the directory `/scratch/project_2004205/USA` or any of its subdirectories depending on whether you want to extract the whole dataset or a specific subset. The size of the whole dataset is 59 GB.
+3. Download the files to your own computer.
+
 
 
 
