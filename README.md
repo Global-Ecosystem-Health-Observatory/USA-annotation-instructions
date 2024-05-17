@@ -31,7 +31,7 @@ The directory `/scratch/project_2004205/USA/` in Puhti contains US aerial images
 The directory structure has the following logic:
 
 1. The directory `/scratch/project_2004205/USA/` contains several subdirectories, each containing aerial imagery from a specific year.
-2. Each year-specific directory contains subdirectories containing aerial imagery from a specific state (*wa* for Washington and *or* for Oregon). Depending on data availability, some years only include imagery for one of these two states and others include imagery for both states.
+2. Each year-specific directory contains subdirectories containing aerial imagery from a specific state (e.g., *wa* for Washington *or* for Oregon). Depending on data availability, some years only include imagery for one of these two states and others include imagery for both states.
 3. Each state-specific directory contains subdirectories for a specific imagery type (*c* for infrared images and *n* for RGB images). Only RGB imagery is available for years between 2006 and 2017, whereas both RGB and infrared imagery is available starting from year 2018.
 4. Each imagery type-specific directory contains the actual images for a specific year, state, and imagery type. For example, the directory `/scratch/project_2004205/USA/2023/wa/c/` contains the infrared images for the state of Washington acquired in 2023. Each imagery type-specific directory should contain exactly 100 images. These images are a random subset of all image tiles available for a specific year, state, and imagery type. For a given year and state, if both RGB and infrared images are available, there is a corresponding infrared image for each RGB image (i.e., for each RGB image, there is an infrared image that covers the same area).
 
@@ -45,14 +45,14 @@ The names of the image files follow a specific structure as well. As an example,
 
 **NOTE!** The original untiled images cover whole counties. Some of these images exceed the county boundaries and the values of the pixels exceeding the boundaries have been set to zero. As a result, some image tiles might be partly or even fully black.
 
-**NOTE!** The images located under the subdirectories of `/scratch/project_2004205/USA/` are a **random** subset of all images from the states of Washington and Oregon. Hence, you can expect many of the images to contain little to no forest.
+**NOTE!** The images located under the subdirectories of `/scratch/project_2004205/USA/` are a **random** subset of all images from different states. Hence, you can expect many of the images to contain little to no forest.
 
 ### Downloading the images
 
 Follow these steps to download the images:
 
 1. [Connect to Puhti using a graphical file transfer program](https://docs.csc.fi/data/moving/graphical_transfer/), such as FileZilla or WinSCP.
-2. Navigate to the directory `/scratch/project_2004205/USA/` or any of its subdirectories depending on whether you want to extract the whole dataset or a specific subset. The size of the whole dataset is 59 GB.
+2. Navigate to the directory `/scratch/project_2004205/USA/` or any of its subdirectories depending on whether you want to extract the whole dataset or a specific subset. The size of the whole dataset is currently 94 GB.
 3. Download the files to your own computer.
 
 
