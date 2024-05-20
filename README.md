@@ -55,7 +55,7 @@ Follow these steps to download the images:
 2. Navigate to the directory `/scratch/project_2004205/USA/` or any of its subdirectories depending on whether you want to extract the whole dataset or a specific subset. The size of the whole dataset is currently 108 GB.
 3. Download the files to your own computer.
 
-*Currently, the directory contains images from the states of New mexico, Oregon, Texas, and Washington.
+**Currently, the directory contains images from the states of New mexico, Oregon, Texas, and Washington.**
 
 
 
