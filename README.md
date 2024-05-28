@@ -52,10 +52,10 @@ The names of the image files follow a specific structure as well. As an example,
 Follow these steps to download the images:
 
 1. [Connect to Puhti using a graphical file transfer program](https://docs.csc.fi/data/moving/graphical_transfer/), such as FileZilla or WinSCP.
-2. Navigate to the directory `/scratch/project_2004205/USA/` or any of its subdirectories depending on whether you want to extract the whole dataset or a specific subset. The size of the whole dataset is currently 123 GB.
+2. Navigate to the directory `/scratch/project_2004205/USA/` or any of its subdirectories depending on whether you want to extract the whole dataset or a specific subset. The size of the whole dataset is currently 175 GB.
 3. Download the files to your own computer.
 
-**Currently, the directory contains images from the states of New mexico, Oregon, Texas, and Washington.**
+**Currently, the directory contains images from the states of Missouri, New mexico, Oregon, Texas, and Washington.**
 
 
 
